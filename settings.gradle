@@ -1,0 +1,2 @@
+rootProject.name='SWEFall2002'
+include ':app'

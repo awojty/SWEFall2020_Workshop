@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thank you for your order!"
+        android:layout_margin="50dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hummus"
+        android:textSize="15dp"
+        android:textColor="@color/colorPrimaryDark"
+        />
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="139dp"
+        android:src="@drawable/example_image"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your comment on our dish"
+        android:layout_margin="50dp"
+        android:textColor="@color/colorPrimaryDark"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text = "Send a review"
+        android:id = "@+id/button"/>
+    <TextView
+        android:id = "@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wait for updates here"
+        android:layout_gravity="center"
+        android:textColor="@color/colorAccent"/>
+
+
+
+
+
+</LinearLayout>
+
+</ScrollView>
